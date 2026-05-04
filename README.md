@@ -71,3 +71,8 @@ Goals scored: 96, Goals allowed: 84
 - The classes are in the default package
 - No external libraries are required
 - Output is different on every run because the schedule, temperature, and scores are random
+- The Printf method used in the Game.java of the program changes the way it prints the temperature
+  - The Temperature is a double, so you have to:
+    1) Type the text first in the quotation marks
+    2) %.2F
+    3) comma then temperture variable
