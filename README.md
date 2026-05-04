@@ -17,6 +17,9 @@ This project is a small Java console program that simulates a four-team season. 
 - `Team 4` is always the home team in Game 1
 - The away team in Game 1 is randomly chosen from `Team 1`, `Team 2`, or `Team 3`
 - Game 2 uses the two remaining teams
+- This is how the teams
+  1) Don't play against themselves
+  2) Don't play against the same team consecutively
 
 ## Scoring rules
 
