@@ -36,24 +36,18 @@ The number of possible goals increases as the temperature gets warmer:
 - `src/Team.java` - stores season totals for each team
 - `src/Game.java` - stores game data and prints game results
 
-## How to run
+## Team Stats Printout
+- The Team.java has what is used to create stats for each team
+  - private String name is used to name each team
+  - private int wins_total is the amount of wins the team have
+  - private int losses_total is the amount of losses the team have
+  - private int draws_total is the amount of draws the team have
+  - private int total_goals_scored is the amount of goals the team scored
+  - private int total_goals_allowed is the amount of goals the team allowed to score on them
+ 
 
-Compile the program from the project root:
+## How the games are run
 
-```powershell
-javac src\*.java
-```
-
-Run the program:
-
-```powershell
-java -cp src Main
-```
-
-Verified locally with:
-
-- `javac 25.0.2`
-- `java 25.0.2`
 
 ## Example output
 
